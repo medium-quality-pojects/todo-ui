@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import type {Task} from '../types/Task'
-import { getToken, removeToken } from '../lib/auth'
+import { getToken } from '../lib/auth'
 
 const TaskList = () => {
     const [tasks, setTasks] = useState<Task[]>([])
